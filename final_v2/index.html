@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+  <script>
+    var modal_1_tot = 0;
+    var modal_1_savings_daily = 0;
+    var modal_1_savings_yearly = 0;
+
+    function add_modal_1() {
+      modal_1_tot += 1;
+      document.getElementById("modal_1_tot").innerHTML = modal_1_tot;
+      modal_1_savings_daily = modal_1_tot * .166666;
+      document.getElementById("modal_1_savings_daily").innerHTML = modal_1_savings_daily;
+
+      modal_1_savings_yearly = modal_1_savings_daily * 365;
+      document.getElementById("modal_1_savings_yearly").innerHTML = modal_1_savings_yearly;
+    }
+    function sub_modal_1() {
+      modal_1_tot -= 1;
+      document.getElementById("modal_1_tot").innerHTML = modal_1_tot;
+      modal_1_savings_daily = modal_1_tot * .166666;
+      document.getElementById("modal_1_savings_daily").innerHTML = modal_1_savings_daily;
+
+      modal_1_savings_yearly = modal_1_savings_daily * 365;
+      document.getElementById("modal_1_savings_yearly").innerHTML = modal_1_savings_yearly;
+}
+    var modal_2_tot = 0;
+    var modal_2_savings_daily = 0;
+    var modal_2_savings_yearly = 0;
+
+    function add_modal_2() {
+      modal_2_tot += 1;
+      document.getElementById("modal_2_tot").innerHTML = modal_2_tot;
+      modal_2_savings_daily = modal_2_tot * .25;
+      document.getElementById("modal_2_savings_daily").innerHTML = modal_2_savings_daily;
+
+      modal_2_savings_yearly = modal_2_savings_daily * 52
+      document.getElementById("modal_2_savings_yearly").innerHTML = modal_2_savings_yearly;
+
+    }
+    function sub_modal_2() {
+      modal_2_tot -= 1;
+      document.getElementById("modal_2_tot").innerHTML = modal_2_tot;
+      modal_2_savings_daily = modal_2_tot * 3;
+      document.getElementById("modal_2_savings_daily").innerHTML = modal_2_savings_daily;
+
+      modal_2_savings_yearly = modal_2_savings_daily * 52;
+      document.getElementById("modal_2_savings_yearly").innerHTML = modal_2_savings_yearly;
+
+    }
+
+  
+
+    var modal_3_tot = 0;
+    var modal_3_savings_daily = 0;
+    var modal_3_savings_yearly = 0;
+    function add_modal_3() {
+      modal_3_tot += 1;
+      document.getElementById("modal_3_tot").innerHTML = modal_3_tot;
+      modal_3_savings_daily = modal_3_tot * 3;
+      document.getElementById("modal_3_savings_daily").innerHTML = modal_3_savings_daily;
+
+      modal_3_savings_yearly = modal_3_savings_daily * 52;
+      document.getElementById("modal_3_savings_yearly").innerHTML = modal_3_savings_yearly;
+    }
+    function sub_modal_3() {
+      modal_3_tot -= 1;
+      document.getElementById("modal_3_tot").innerHTML = modal_3_tot;
+      modal_3_savings_daily = modal_3_tot * .166666;
+      document.getElementById("modal_3_savings_daily").innerHTML = modal_3_savings_daily;
+
+      modal_3_savings_yearly = modal_3_savings_daily * 365;
+      document.getElementById("modal_3_savings_yearly").innerHTML = modal_3_savings_yearly;
+    }
+
+  </script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+        type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <img src="img/logo1.png">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Track</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#water">Impact</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">User Info</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="img/portfolio/video!!!.mp4" type="video/mp4">
+    </video>
+
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <img class="masthead-avatar mb-5" id="logo" style="width: 90px; padding-top: 120px" src="img/logo!!!.png"
+            alt="logo">
+          <h1 class="masthead-heading text-lowercase mb-0">habit@.</h1>
+          <h1 class="masthead-heading text-lowercase mb-0">gamifying sustainability.</h1>
+          <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+          </div>
+          <p class="masthead-subheading font-weight-light mb-0">a simple, minimalistic web app that educates users about
+            sustainability and tracks green habits.</p>
+          <p class="masthead-subheading font-weight-light mb-0">join the movement: save our habit@s.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-lowercase text-secondary mb-0">habit tracker</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <!-- Portfolio Item 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <div class="track-imgs">
+              <div class="water-img">
+
+
+                <img class="img-fluid" src="img/drop.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <div class="track-imgs">
+              <div class="bottle-img"><img class="img-fluid" src="img/bottle.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <div class="track-imgs">
+              <div class="cloud-img"><img class="img-fluid" src="img/cloud!.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+  </section>
+
+ <!-- Water Section -->
+ <section class = "page-section hero text-white mb-0" id="water">
+   <div class="container">
+
+     <!-- Water Section Heading -->
+     <img class = "algn" src="img/waterDropletWhite.png" alt="" width="50" height="70"><br>
+     <h2 class="page-section-heading text-center text-lowercase text-white">water</h2><br>
+
+    <!-- Water Section Content -->
+     <div class="row">
+       <div class="col-lg-4 ml-auto">
+         <p class="lead">Agriculture makes up 70% of freshwater demand. Products such as beef and commodities such as chocolate tend to use the most water. The average water footprint of meat from beef cattle (15,400 cubed metric tons) is twenty times larger than for cereals and starchy roots.
+           By choosing alternatives such as a salad or chicken in contrast to beef, you can help to significatly reduce long-term water usage, as these commodities require less water to cultivate.</p>
+       </div>
+       <div class="col-lg-4 mr-auto">
+         <p class="lead">Domestic Use makes up 8% of freshwarer demand. According to the EPA, bathroom faucets run at about 2 gallons of water a minute. Therefore, by turning off faucets and taking shower showers, you can significatly cut down on your water usage overall. It is also a good practice to only use dishwashers once it is entirely full, as it requires less water than hand-washing them one-by-one.</p>
+       </div>
+     </div>
+
+   </div>
+ </section>
+
+<!--white space-->
+<section class = "blank" id="blank"></section>
+  <!-- Plastic Section -->
+ <section class="page-section plastic text-white mb-0" id="plastic">
+   <div class="container">
+
+     <!-- plastic Section Heading -->
+     <img class = "algnpt3" src="img/portfolio/bottle.png" alt="" width="45" height="100"><br>
+     <h2 class="page-section-heading text-center text-lowercase text-white">Plastic</h2><br>
+
+    <!-- plastic Section Content -->
+    <div class="row">
+     <div class="col-lg-4 ml-auto">
+       <p class="lead">One third of all plastic waste ends up in soils or freshwater. Very little of the plastic we discard every day is recycled or incinerated in waste-to-energy facilities. Much of it ends up in landfills, where it may take up to 1,000 years to decompose, leaching potentially toxic substances into the soil and water. However, by reducing, reusing, and recycling pre-existing water bottles, we can prevent some of the negative environmental impacts associated with them.</p>
+       <br>
+       <p class = "lead">Plastics are durable, lightweight and inexpensive materials. They can readily be molded into various products which find uses in a plethora of applications.</p>
+     </div>
+     <div class="col-lg-4 mr-auto">
+       <p class="lead">
+          Every year, more than 100 million tons of plastics are manufactured across the globe.
+          Around 200 billion pounds of new plastic material is thermoformed, foamed, laminated and extruded into millions of packages and products.
+          Due to the fact that they are non-biodegradable and persist in nature for extended periods of time, improper disposal of plastic can lead to ocean pollution and bioaccumulation in the food chain.
+           Thus, it becomes vital for consumers to reuse, reduce, and recycle old bottles instead of continuing to buy single-use bottles.
+       </p>
+     </div>
+   </div>
+</div>
+</section>
+
+
+ <!--white space-->
+ <section class = "blank" id="blank"></section>
+
+ <!-- emissions section -->
+ <section class="page-section emissions text-white mb-0" id="emissions">
+   <div class="container">
+
+     <!-- emissions section Heading -->
+     <img class = "algnpt2" src="img/cloud.png" alt="" width="100" height="70"><br>
+     <h2 class="page-section-heading text-center text-lowercase text-white">Emissions</h2><br>
+
+  <!-- emissions Section Content -->
+  <div class="row">
+   <div class="col-lg-4 ml-auto">
+     <p class="lead">Vehicles and engines account for about 78% of CO emissions in the United States. Carbon monoxide poses risk to humans and other animals, even in small concentrations.
+         It can bind irreversibly to hemoglobin in red blood cells, preventing the hemoglobin from binding with oxygen. Vehicle exhaust also contributes to global climate change and acid deposition: the setting of acidic or acid-forming pollutants from the atmosphere onto Earth’s surface. This can take place through precipitation, fog, gases, or the deposition of dry particles
+         </p>
+   </div>
+   <div class="col-lg-4 mr-auto">
+     <p class="lead">Acidic deposition can have wide-ranging, cumulative detrimental effects on ecosystems and on our built environment.
+         Acids leach nutrients such as calcium, magnesium, and potassium from the topsoil, altering soil chemistry and harming plants and soil organisms.
+         In order to combat the increasing emissions of carbon monoxide and carbon dioxide in our environment, simple decisions such as carpooling or opting to take mass transit instead of point-sources like cars, you can help reduce the amount of greenhouse gas emissions and acid rain.
+         </p>
+   </div>
+ </div>
+
+</div>
+</section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2 class="page-section-heading text-center text-lowercase text-secondary mb-0">USER DASHBOARD</h2>
+
+
+
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="wrap-box">
+
+
+        <div class="person">
+          <img src="img/portfolio/person3.png">
+          <h2 class="icon-section text-left text-lowercase text-secondary">invira mint</h2>
+        </div>
+
+        <div class="box-stack">
+          <div class="box">
+            <h3 style="border:3px;"></h3>
+            <h3 style="border:3px;">Points: </h3>
+            <h3 style="border:3px;"></h3>
+            <h3 style="border:3px;">Badges: </h3>
+            <div class="badges-row"></div>
+            <img class="badges" src="img/portfolio/waterBadge.png">
+            <img class="badges" src="img/portfolio/recycleBadge.png">
+            <img class="badges" src="img/portfolio/carpoolBadge.png">
+          </div>
+          <div class="box2">
+            <h3 style="border:3px;"></h3>
+            <h3 style="border:3px;">Join Date: 6/01/19</h3>
+            <h3 style="border:3px;"></h3>
+            <h3 style="border:3px;">Streak Count: 22</h3>
+          </div>
+        </div>
+
+        <div class="box3">
+          <h3 style="border:3px;"></h3>
+          <h3 style="border:3px;">Did You Know?</h3>
+          <lead> A 5-minute shower is equal to 20-35 gallons of water.<br> </br> America uses about 15 times more energy per person than the typical developing country.<br> </br>In the United States, more than 40 percent of municipal solid waste is paper -- about 71.8 tons a year.
+</lead>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+
+        <!-- Footer Social Icons -->
+        <div class="f00ter">
+          <h4 class="text-lowercase">made with 💖 by the windycityhacks she++ team.✨</h4>
+          <h4 class="text-lowercase">justina, becky, yamilett, & salma.👩‍💻</h4>
+          <h4 class="text-lowercase">Copyright © Habit@ 2019.</h4>
+        </div>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Water Conservation</h2>
+
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <div class="drop-img1"><img class="img-fluid rounded mb-5" src="img/drop.png" alt=""></div>
+
+                <!-- Portfolio Modal - Text -->
+
+                <p class="mb-5">Water is an essential element of all life. We can save hundreds of gallons of water a
+                  year if we conserve it wisely.</p>
+
+                <p class="mb-5">Turning off the sink while brushing teeth saves on average 1/6 of a gallon of water
+                  every time. Enter below how many times you turned off the sink while brushing your teeth today</p>
+                <hr />
+                <div class="btn-wrap">
+                  <button class="btn-style" type="button" onClick="add_modal_1()">+</button>
+                  <button class="btn-style" type="button" onClick="sub_modal_1()">-</button>
+                </div>
+
+
+                <p class="mb-5"> Water was saved <a id="modal_1_tot">0</a> times while brushing teeth. </p>
+                <hr />
+                <p class="mb-5"> This means you saved <a id="modal_1_savings_daily">0</a> gallons of water per day. If
+                  you keep that up, you'll save <a id="modal_1_savings_yearly">0</a> gallons of water per year.
+                </p>
+                <!-- 
+    <p>Total <a id="modal_1_tot">0</a></p>
+    <button type="button" onClick="add_modal_1a()">+</button>
+                  <button type="button" onClick="sub_modal_1a()">-</button>
+    <p>Total 2 <a id="modal_1a_tot">0</a></p> -->
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Plastic Use</h2>
+
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <div class="bottle-img1">
+                  <img class="img-fluid rounded mb-5" src="img/bottle.png" alt="">
+                </div>
+
+                <!-- Portfolio Modal - Text -->
+
+                <p class="mb-5">By the year 2050, it is estimated that there will be more plastic than fish in the
+                  ocean. It is imperative we change our habits.</p>
+
+                <p class="mb-5">Use the tool below to select the number of times per week that you use a reusable cup
+                  instead of a single-use plastic cup.</p>
+                <hr />
+                <div class="btn-wrap">
+                  <button class="btn-style" type="button" onClick="add_modal_2()">+</button>
+                  <button class="btn-style" type="button" onClick="sub_modal_2()">-</button>
+                </div>
+
+                <p class="mb-5"> A reusable cup was used <a id="modal_2_tot">0</a> times in the last week. </p>
+                <hr />
+                <p class="mb-5"> This means you saved <a id="modal_2_savings_daily">0</a> pounds of plastic from going
+                  into a landfill. If you keep that up, you'll prevent <a id="modal_2_savings_yearly">0</a> pounds of
+                  trash from going into a landfill.
+                </p>
+                <!--     <button type="button" onClick="add_modal_2a()">+</button>
+                  <button type="button" onClick="sub_modal_2a()">-</button>
+    <p>Total 2 <a id="modal_2a_tot">0</a></p>                  
+ -->
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Emissions</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <div class="cloud-img1"><img class="img-fluid rounded mb-5" src="img/cloud!.png" alt=""></div>
+
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5"> Carbon emissions contribute to global warming. Reducing the consumption of fossil fuels
+                  can help lessen this.</p>
+
+                <p class="mb-5">Taking public transportation can reduce carbon emissions on average 3 kg per trip. Enter
+                  how many times you have taken public transportation rather than a ride in a personal vehicle this
+                  week. </p>
+                <hr />
+                <div class="btn-wrap">
+                  <button class="btn-style" type="button" onClick="add_modal_3()">+</button>
+                  <button class="btn-style" type="button" onClick="sub_modal_3()">-</button>
+                </div>
+                <p class="mb-5"> Public transportation was used <a id="modal_3_tot">0</a> times this week.</p>
+                <hr />
+                <p class="mb-5"> This means you prevented <a id="modal_3_savings_daily">0</a> kilograms of carbon per
+                  week. If you keep that up, you'll prevent <a id="modal_3_savings_yearly">0</a> kilograms of carbon
+                  from being released into the atmosphere.
+                </p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>
